@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zoom_Party</fullName>
+    <active>true</active>
+    <businessProcess>Zoom Party</businessProcess>
+    <compactLayoutAssignment>Lead_Compact_V2</compactLayoutAssignment>
+    <label>Zoom Party</label>
+    <picklistValues>
+        <picklist>Covid19_ready_delivered_catering__c</picklist>
+        <values>
+            <fullName>No I do not require catering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes I am interested in catering boxes being delivered</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deposit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disqualification_Reason__c</picklist>
+        <values>
+            <fullName>Bad Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Longer Interested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Type__c</picklist>
+        <values>
+            <fullName>21st Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Quarterly Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company overnight stays%2FCorporate away days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halloween</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hens and stags</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Reception standing party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pr Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz night</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venue with stage</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Location_Requested__c</picklist>
+        <values>
+            <fullName>City centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Camden street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre D%27olier street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Dame street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Dawson street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Georges streetr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Harcourt street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre IFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Leeson street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Merrion row</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Temple Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre off Grafton street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre off O%27Connell street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin North county</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin South county</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Connaught</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Leinster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Munster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Ulster</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Name</picklist>
+        <values>
+            <fullName>Dr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mr%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mrs%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ms%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prof%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Contact_Email__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>New_Contact_Number__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PrivacyPicklist__c</picklist>
+        <values>
+            <fullName>Private venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi private until a certain time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared venue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Revenue_Type__c</picklist>
+        <values>
+            <fullName>Commission</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flat Rate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trigger__c</picklist>
+        <values>
+            <fullName>21st Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Ball Hotels</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Covid 19 private party options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment ideas company Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events Company - Can%27t help</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free Platters</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Private Rooms with no room hire fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Private spaces with hire fee%2Fmore expensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large conference or Gala dinner%28hotel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2Fa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Need Help again this year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offsite Trips outside Dublin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Own Food or Drinks Get Rid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Outside City Centre%28North%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Outside City Centre%28South%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Room -Older age group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz Lions rugby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz night Large</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz night Small</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurants cheaper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurants in Hotel venues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurants in bar venues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Private rooms with no room hire fee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Private spaces with hire fee%2Fmore expensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small conference or Dinner event %28hotel%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer 2020 with pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theatre venue with seating</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top Venues with areas cordoned off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Large Conference%28 Gala dinner%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique party venue over 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique party venue under 100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique small conference%28Private Dining%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venues for speaker event with stage and screen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse large Unique events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedding Hotel venue %26 More expensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedding unusual Dublin venues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zoom party enquiry response</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>venues with a stage for band nights</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_event__c</picklist>
+        <values>
+            <fullName>N%2Fa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Would_you_like_a_video_put_together_of_y__c</picklist>
+        <values>
+            <fullName>No thanks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes please</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

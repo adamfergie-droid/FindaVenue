@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trigger__c</fullName>
+    <label>Trigger</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>N/a</fullName>
+                <default>false</default>
+                <label>N/a</label>
+            </value>
+            <value>
+                <fullName>21st Party</fullName>
+                <default>false</default>
+                <label>21st Party</label>
+            </value>
+            <value>
+                <fullName>Top Venues with areas cordoned off</fullName>
+                <default>false</default>
+                <label>Top Venues with areas cordoned off</label>
+            </value>
+            <value>
+                <fullName>College Ball Hotels</fullName>
+                <default>false</default>
+                <label>College Ball Hotels</label>
+            </value>
+            <value>
+                <fullName>College Events</fullName>
+                <default>false</default>
+                <label>College Events</label>
+            </value>
+            <value>
+                <fullName>Decision sent</fullName>
+                <default>false</default>
+                <label>Decision sent</label>
+            </value>
+            <value>
+                <fullName>Entertainment ideas company Events</fullName>
+                <default>false</default>
+                <label>Entertainment ideas company Events</label>
+            </value>
+            <value>
+                <fullName>Events Company - Can&apos;t help</fullName>
+                <default>false</default>
+                <label>Events Company - Can&apos;t help</label>
+            </value>
+            <value>
+                <fullName>Free Platters</fullName>
+                <default>false</default>
+                <label>Free Platters</label>
+            </value>
+            <value>
+                <fullName>Large conference or Gala dinner(hotel)</fullName>
+                <default>false</default>
+                <label>Large conference or Gala dinner(hotel)</label>
+            </value>
+            <value>
+                <fullName>Need Help again this year</fullName>
+                <default>false</default>
+                <label>Need Help again this year</label>
+            </value>
+            <value>
+                <fullName>Offsite Trips outside Dublin</fullName>
+                <default>false</default>
+                <label>Offsite Trips outside Dublin</label>
+            </value>
+            <value>
+                <fullName>Own Food or Drinks Get Rid</fullName>
+                <default>false</default>
+                <label>Own Food or Drinks Get Rid</label>
+            </value>
+            <value>
+                <fullName>Private Outside City Centre(North)</fullName>
+                <default>false</default>
+                <label>Private Outside City Centre(North)</label>
+            </value>
+            <value>
+                <fullName>Private Outside City Centre(South)</fullName>
+                <default>false</default>
+                <label>Private Outside City Centre(South)</label>
+            </value>
+            <value>
+                <fullName>Private Room -Older age group</fullName>
+                <default>false</default>
+                <label>Private Room -Older age group</label>
+            </value>
+            <value>
+                <fullName>Quiz night Large</fullName>
+                <default>false</default>
+                <label>Quiz night Large</label>
+            </value>
+            <value>
+                <fullName>Quiz night Small</fullName>
+                <default>false</default>
+                <label>Quiz night Small</label>
+            </value>
+            <value>
+                <fullName>Restaurants cheaper</fullName>
+                <default>false</default>
+                <label>Restaurants cheaper</label>
+            </value>
+            <value>
+                <fullName>Restaurants in bar venues</fullName>
+                <default>false</default>
+                <label>Restaurants in bar venues</label>
+            </value>
+            <value>
+                <fullName>Restaurants in Hotel venues</fullName>
+                <default>false</default>
+                <label>Restaurants in Hotel venues</label>
+            </value>
+            <value>
+                <fullName>Small conference or Dinner event (hotel)</fullName>
+                <default>false</default>
+                <label>Small conference or Dinner event (hotel)</label>
+            </value>
+            <value>
+                <fullName>Summer 2020 with pricing</fullName>
+                <default>false</default>
+                <label>Summer 2020 with pricing</label>
+            </value>
+            <value>
+                <fullName>Theatre venue with seating</fullName>
+                <default>false</default>
+                <label>Theatre venue with seating</label>
+            </value>
+            <value>
+                <fullName>Unique party venue over 100</fullName>
+                <default>false</default>
+                <label>Unique party venue over 100</label>
+            </value>
+            <value>
+                <fullName>Unique party venue under 100</fullName>
+                <default>false</default>
+                <label>Unique party venue under 100</label>
+            </value>
+            <value>
+                <fullName>Unique small conference(Private Dining)</fullName>
+                <default>false</default>
+                <label>Unique small conference(Private Dining)</label>
+            </value>
+            <value>
+                <fullName>Venues for speaker event with stage and screen</fullName>
+                <default>false</default>
+                <label>Venues for speaker event with stage and screen</label>
+            </value>
+            <value>
+                <fullName>venues with a stage for band nights</fullName>
+                <default>false</default>
+                <label>venues with a stage for band nights</label>
+            </value>
+            <value>
+                <fullName>Warehouse large Unique events</fullName>
+                <default>false</default>
+                <label>Warehouse large Unique events</label>
+            </value>
+            <value>
+                <fullName>Wedding Hotel venue &amp; More expensive</fullName>
+                <default>false</default>
+                <label>Wedding Hotel venue &amp; More expensive</label>
+            </value>
+            <value>
+                <fullName>Wedding unusual Dublin venues</fullName>
+                <default>false</default>
+                <label>Wedding unusual Dublin venues</label>
+            </value>
+            <value>
+                <fullName>Large Private spaces with hire fee/more expensive</fullName>
+                <default>false</default>
+                <label>Large Private spaces with hire fee/more expensive</label>
+            </value>
+            <value>
+                <fullName>Large Private Rooms with no room hire fee</fullName>
+                <default>false</default>
+                <label>Large Private Rooms with no room hire fee</label>
+            </value>
+            <value>
+                <fullName>Unique Large Conference( Gala dinner)</fullName>
+                <default>false</default>
+                <label>Unique Large Conference( Gala dinner)</label>
+            </value>
+            <value>
+                <fullName>Quiz Lions rugby</fullName>
+                <default>false</default>
+                <label>Quiz Lions rugby</label>
+            </value>
+            <value>
+                <fullName>Small Private rooms with no room hire fee</fullName>
+                <default>false</default>
+                <label>Small Private rooms with no room hire fee</label>
+            </value>
+            <value>
+                <fullName>Small Private spaces with hire fee/more expensive</fullName>
+                <default>false</default>
+                <label>Small Private spaces with hire fee/more expensive</label>
+            </value>
+            <value>
+                <fullName>Zoom party enquiry response</fullName>
+                <default>false</default>
+                <label>Zoom party enquiry response</label>
+            </value>
+            <value>
+                <fullName>Covid 19 private party options</fullName>
+                <default>false</default>
+                <label>Covid 19 private party options</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Covid19_ready_delivered_catering__c</fullName>
+    <label>Covid19 ready delivered catering?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes I am interested in catering boxes being delivered</fullName>
+                <default>false</default>
+                <label>Yes I am interested in catering boxes being delivered</label>
+            </value>
+            <value>
+                <fullName>No I do not require catering</fullName>
+                <default>false</default>
+                <label>No I do not require catering</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

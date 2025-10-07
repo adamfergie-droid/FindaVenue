@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>Enquiry_Source__c</columns>
+    <columns>Event_Day__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Date_Enquired__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Company__c</columns>
+    <columns>Company_or_Private__c</columns>
+    <columns>Number_of_People__c</columns>
+    <columns>Type_of_Event__c</columns>
+    <columns>Name__c</columns>
+    <columns>Phone__c</columns>
+    <columns>EmailV1__c</columns>
+    <columns>Email__c</columns>
+    <columns>Venue2__c</columns>
+    <columns>NAME</columns>
+    <filterScope>Everything</filterScope>
+    <label>All events 2011-2022-bus develop</label>
+</ListView>

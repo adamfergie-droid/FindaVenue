@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Hi {{{Recipient.FirstName}}},&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;We hope your event went brilliantly and that everything ran smoothly on the day.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;We&amp;rsquo;d really appreciate hearing how it all went &amp;mdash; your feedback helps us continuously improve and ensure future events are just as successful.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;If you had a great experience, we&amp;rsquo;d be grateful if you could share Find A Venue with any colleagues or teams that plan events. Referrals have always been a big part of how we grow, and we&amp;rsquo;d love to support your wider network.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Thanks again for working with us &amp;mdash; we hope to be part of your next event too.&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&amp;nbsp;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;Kind regards,&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;color:#333333;font-family:Arial;font-size:16px;font-weight:normal;margin:0;&quot;&gt;&lt;span style=&quot;font-size:12px;&quot;&gt;&lt;span style=&quot;font-family:Helvetica,Arial,Helvetica,sans-serif;&quot;&gt;&lt;span style=&quot;font-variant: normal; white-space: pre-wrap;&quot;&gt;&lt;span style=&quot;font-weight:400&quot;&gt;&lt;span style=&quot;font-style:normal&quot;&gt;&lt;span style=&quot;text-decoration:none&quot;&gt;The Find A Venue Team&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p style=&quot;line-height:1.38&quot;&gt;&amp;nbsp;&lt;/p&gt;</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText7</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-99049358-058a-41ff-aa86-2791cdd2ebc1</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-99049358-058a-41ff-aa86-2791cdd2ebc1</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-6fc3a2a1-7fc3-412b-ac87-c423bdd87b03</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-6fc3a2a1-7fc3-412b-ac87-c423bdd87b03</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row3</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>X3_Day_After_Event</masterLabel>
+    <template>
+        <name>contentpage:defaultEmailTemplatePageTemplate</name>
+        <properties>
+            <name>backgroundColor</name>
+            <value>#ffffff</value>
+        </properties>
+        <properties>
+            <name>backgroundImageUrl</name>
+        </properties>
+        <properties>
+            <name>bodyColor</name>
+            <value>#FFFFFF</value>
+        </properties>
+        <properties>
+            <name>paddingBottom</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingLeft</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingRight</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingTop</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>preheader</name>
+        </properties>
+    </template>
+    <type>EmailTemplatePage</type>
+</FlexiPage>

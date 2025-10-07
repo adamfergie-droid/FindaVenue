@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>allowChanges</name>
+                    <value>true</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>linkedToDesignKit</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginBottom</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginLeft</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginRight</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>marginTop</name>
+                    <value>0</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>richTextValue</name>
+                    <value>Dear {{{Recipient.FirstName}}},&lt;br /&gt;
+&lt;br /&gt;
+We&amp;rsquo;re pleased to confirm that your booking on {{{Opportunity.Event_Day__c}}} at {{{Opportunity.Winning_Venue__c}}} has been finalized.&lt;br /&gt;
+&lt;br /&gt;
+Booking Summary:&lt;br /&gt;
+- Venue: {{{Opportunity.Winning_Venue__c}}}&lt;br /&gt;
+- Event Time: {{{Opportunity.Event_Time__c}}}&lt;br /&gt;
+- Guest Count: {{{Opportunity.Number_of_People__c}}}&lt;br /&gt;
+- Deposit Amount: {{{Opportunity.Deposit_Amount__c}}}&lt;br /&gt;
+&lt;br /&gt;
+The client has paid the deposit to Find A Venue. We will manage the deposit transfer to your venue. Any remaining balance is to be paid directly between the client and venue. Find A Venue is now stepping away from this booking, and all further communication or coordination should happen directly between you both.&lt;br /&gt;
+&lt;br /&gt;
+Next Steps:&lt;br /&gt;
+You&amp;rsquo;re both now directly connected. Please reach out to each other for final details, coordination, or any questions leading up to the event.&lt;br /&gt;
+&lt;br /&gt;
+Thank you for using Find A Venue &amp;ndash; we&amp;rsquo;re glad we could help you connect. Wishing you a fantastic event!&lt;br /&gt;
+&lt;br /&gt;
+Warm regards, &amp;nbsp;&lt;br /&gt;
+The Find A Venue Team</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:richText</componentName>
+                <identifier>contentbuilder_richText</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-c4c2543e-0f49-486d-951e-e6daecfb744a</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>columnBody</name>
+                    <value>Facet-c4c2543e-0f49-486d-951e-e6daecfb744a</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnCount</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnIndex</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columnSpacer</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>padding</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlign</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>width</name>
+                    <value>100%</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:column</componentName>
+                <identifier>contentbuilder_column</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>Facet-91587c41-94b3-4df6-96ab-e59346841d53</name>
+        <type>Facet</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <itemInstances>
+            <componentInstance>
+                <componentInstanceProperties>
+                    <name>backgroundColor</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>backgroundImageUrl</name>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>columns</name>
+                    <value>Facet-91587c41-94b3-4df6-96ab-e59346841d53</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
+                    <name>verticalAlignment</name>
+                    <value>top</value>
+                </componentInstanceProperties>
+                <componentName>contentbuilder:row</componentName>
+                <identifier>contentbuilder_row</identifier>
+            </componentInstance>
+        </itemInstances>
+        <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Booking_Confirmation_FAV_Deposit</masterLabel>
+    <template>
+        <name>contentpage:defaultEmailTemplatePageTemplate</name>
+        <properties>
+            <name>backgroundColor</name>
+            <value>#ffffff</value>
+        </properties>
+        <properties>
+            <name>backgroundImageUrl</name>
+        </properties>
+        <properties>
+            <name>bodyColor</name>
+            <value>#FFFFFF</value>
+        </properties>
+        <properties>
+            <name>paddingBottom</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingLeft</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingRight</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>paddingTop</name>
+            <value>10</value>
+        </properties>
+        <properties>
+            <name>preheader</name>
+        </properties>
+    </template>
+    <type>EmailTemplatePage</type>
+</FlexiPage>

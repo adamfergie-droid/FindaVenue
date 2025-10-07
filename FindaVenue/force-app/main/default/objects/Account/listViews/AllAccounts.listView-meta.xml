@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAccounts</fullName>
+    <columns>ACCOUNT.CREATED_DATE</columns>
+    <columns>Event_Day__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Internal_ID__pc</columns>
+    <columns>Company__pc</columns>
+    <columns>Venue2__pc</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>Name__pc</columns>
+    <columns>Enquiry_Source__pc</columns>
+    <columns>Email__c</columns>
+    <columns>Email__pc</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Venue</value>
+    </filters>
+    <label>All Accounts</label>
+</ListView>

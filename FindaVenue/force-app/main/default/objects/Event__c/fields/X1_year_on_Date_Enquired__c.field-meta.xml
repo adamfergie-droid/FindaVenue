@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X1_year_on_Date_Enquired__c</fullName>
+    <formula>IF(
+  AND(
+    MONTH( Date_Enquired__c ) = 2,
+    DAY( Date_Enquired__c ) = 29,
+    NOT( 
+      OR( 
+        MOD( YEAR( Date_Enquired__c ), 400 ) = 0, 
+        AND( 
+          MOD( YEAR( Date_Enquired__c ), 4 ) = 0,
+          MOD( YEAR( Date_Enquired__c  ), 100 ) != 0
+        )
+      )
+    ) 
+  ),
+  DATE( YEAR(  Date_Enquired__c ) + 1, 3, 1),
+  DATE( YEAR( Date_Enquired__c ) + 1, MONTH( Date_Enquired__c ), DAY( Date_Enquired__c ))
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>1 year on Date Enquired</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

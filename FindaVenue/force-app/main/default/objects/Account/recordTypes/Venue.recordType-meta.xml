@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Venue</fullName>
+    <active>true</active>
+    <label>Venue</label>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>On Site</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trade Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Area__c</picklist>
+        <values>
+            <fullName>City centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Camden street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre D%27olier street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Dame street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Dawson street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Georges street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Harcourt street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre IFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Leeson street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Merrion row</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre Temple Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre off Grafton street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City centre off O%27Connell street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 13</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 16</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin 9</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin North county</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dublin South county</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Connaught</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Leinster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Munster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outside Dublin-Ulster</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deposit_Paid_To__c</picklist>
+        <values>
+            <fullName>FAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Scenarios__c</picklist>
+        <values>
+            <fullName>21st Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>After work party-shared areas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Awards Ceremony%2FCompany Anniversary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charity Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Quarterly Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company overnight stays%2FCorporate away days</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Function room birthdays 30th%2C40th</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Function room older age profile 50th%2C60th 70th%2C 80th</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gala Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halloween</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hens and stags</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel with Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Reception standing party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Networking event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other - Tell us in description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Dining %2FRestaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quiz night</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports and Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venue with stage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Types__c</picklist>
+        <values>
+            <fullName>30th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>After Work Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anniversary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Award Ceremony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charity Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Drinks Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Team Area Reserved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Team Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Christmas Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Day Out%2FNight Away</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Family Fun Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Off-Site Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Summer Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gala Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halloween Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel with Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Conference Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch Party%2FNetworking Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Birthday Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Corporate Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Conference Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports and Social Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Food_Options__c</picklist>
+        <values>
+            <fullName>2 Course Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3 Course Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5 Course Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bowled Food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Breakfast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dinner Buffet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finger food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch - 2 Course Sit Down Meal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch - Cold Buffet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch - Hot Buffet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch - Sandwiches</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No food</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tea%2FCoffee%2FLight refreshments %28Conference%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IBSmassemail__SLA__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Platinum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IBSmassemail__UpsellOpportunity__c</picklist>
+        <values>
+            <fullName>Maybe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Agriculture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Apparel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Biotechnology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chemicals</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Communications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Construction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Education</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Electronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Energy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engineering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Environmental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Food %26 Beverage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Healthcare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manufacturing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Media</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not For Profit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recreation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shipping</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transportation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Layout_Type__c</picklist>
+        <values>
+            <fullName>Banquet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Board room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cabaret</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Class room</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dinner Setting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reception %28Standing%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theatre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>U-Shape</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Privacy_Picklist__c</picklist>
+        <values>
+            <fullName>Private venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Semi private until a certain time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shared venue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quality_Of_Venue_1_Highest__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Relationship_With_Venue_1_Highest__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Room_Hire__c</picklist>
+        <values>
+            <fullName>Ask</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Analyst</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Investor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Press</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseller</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Venue_Type_New__c</picklist>
+        <values>
+            <fullName>Bar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Castle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference centre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Landmark Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Live Music Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor  sports day  venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stadium venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Building Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Theatre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unique Venue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warehouse</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Venue_Type__c</picklist>
+        <values>
+            <fullName>30th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50th Birthday</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>After Work Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anniversary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Award Ceremony</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charity Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Drinks Only</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Team Area Reserved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christmas Team Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>College Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Christmas Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Day Out%2FNight Away</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Family Fun Day</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Off Site Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Company Summer Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gala Dinner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Halloween Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel with Accommodation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Large Conference Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Launch Party%2FNetworking Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Birthday Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outdoor Corporate Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PR Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant Booking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Small Conference Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sports and Social Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wedding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

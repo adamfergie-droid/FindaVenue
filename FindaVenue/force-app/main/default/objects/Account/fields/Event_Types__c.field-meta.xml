@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Types__c</fullName>
+    <label>Event Types</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Christmas Team Dinner</fullName>
+                <default>false</default>
+                <label>Christmas Team Dinner</label>
+            </value>
+            <value>
+                <fullName>Company Christmas Party</fullName>
+                <default>false</default>
+                <label>Company Christmas Party</label>
+            </value>
+            <value>
+                <fullName>Christmas Team Area Reserved</fullName>
+                <default>false</default>
+                <label>Christmas Team Area Reserved</label>
+            </value>
+            <value>
+                <fullName>Christmas Drinks Only</fullName>
+                <default>false</default>
+                <label>Christmas Drinks Only</label>
+            </value>
+            <value>
+                <fullName>Corporate Dinner</fullName>
+                <default>false</default>
+                <label>Corporate Dinner</label>
+            </value>
+            <value>
+                <fullName>Gala Dinner</fullName>
+                <default>false</default>
+                <label>Gala Dinner</label>
+            </value>
+            <value>
+                <fullName>Halloween Party</fullName>
+                <default>false</default>
+                <label>Halloween Party</label>
+            </value>
+            <value>
+                <fullName>Large Conference Event</fullName>
+                <default>false</default>
+                <label>Large Conference Event</label>
+            </value>
+            <value>
+                <fullName>Small Conference Event</fullName>
+                <default>false</default>
+                <label>Small Conference Event</label>
+            </value>
+            <value>
+                <fullName>Company Summer Party</fullName>
+                <default>false</default>
+                <label>Company Summer Party</label>
+            </value>
+            <value>
+                <fullName>Company Off-Site Event</fullName>
+                <default>false</default>
+                <label>Company Off-Site Event</label>
+            </value>
+            <value>
+                <fullName>Company Family Fun Day</fullName>
+                <default>false</default>
+                <label>Company Family Fun Day</label>
+            </value>
+            <value>
+                <fullName>Outdoor Corporate Event</fullName>
+                <default>false</default>
+                <label>Outdoor Corporate Event</label>
+            </value>
+            <value>
+                <fullName>After Work Party</fullName>
+                <default>false</default>
+                <label>After Work Party</label>
+            </value>
+            <value>
+                <fullName>Launch Party/Networking Event</fullName>
+                <default>false</default>
+                <label>Launch Party/Networking Event</label>
+            </value>
+            <value>
+                <fullName>Company Day Out/Night Away</fullName>
+                <default>false</default>
+                <label>Company Day Out/Night Away</label>
+            </value>
+            <value>
+                <fullName>Sports and Social Event</fullName>
+                <default>false</default>
+                <label>Sports and Social Event</label>
+            </value>
+            <value>
+                <fullName>Award Ceremony</fullName>
+                <default>false</default>
+                <label>Award Ceremony</label>
+            </value>
+            <value>
+                <fullName>PR Event</fullName>
+                <default>false</default>
+                <label>PR Event</label>
+            </value>
+            <value>
+                <fullName>Charity Event</fullName>
+                <default>false</default>
+                <label>Charity Event</label>
+            </value>
+            <value>
+                <fullName>Restaurant Booking</fullName>
+                <default>false</default>
+                <label>Restaurant Booking</label>
+            </value>
+            <value>
+                <fullName>30th Birthday</fullName>
+                <default>false</default>
+                <label>30th Birthday</label>
+            </value>
+            <value>
+                <fullName>40th Birthday</fullName>
+                <default>false</default>
+                <label>40th Birthday</label>
+            </value>
+            <value>
+                <fullName>50th Birthday</fullName>
+                <default>false</default>
+                <label>50th Birthday</label>
+            </value>
+            <value>
+                <fullName>Other Birthday Party</fullName>
+                <default>false</default>
+                <label>Other Birthday Party</label>
+            </value>
+            <value>
+                <fullName>Wedding</fullName>
+                <default>false</default>
+                <label>Wedding</label>
+            </value>
+            <value>
+                <fullName>Engagement</fullName>
+                <default>false</default>
+                <label>Engagement</label>
+            </value>
+            <value>
+                <fullName>Anniversary</fullName>
+                <default>false</default>
+                <label>Anniversary</label>
+            </value>
+            <value>
+                <fullName>Hotel with Accommodation</fullName>
+                <default>false</default>
+                <label>Hotel with Accommodation</label>
+            </value>
+            <value>
+                <fullName>College Event</fullName>
+                <default>false</default>
+                <label>College Event</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

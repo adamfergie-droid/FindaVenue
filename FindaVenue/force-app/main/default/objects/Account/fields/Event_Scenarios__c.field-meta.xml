@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Scenarios__c</fullName>
+    <label>Event Scenarios</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Summer party</fullName>
+                <default>false</default>
+                <label>Summer party</label>
+            </value>
+            <value>
+                <fullName>Christmas party</fullName>
+                <default>false</default>
+                <label>Christmas party</label>
+            </value>
+            <value>
+                <fullName>Gala Dinner</fullName>
+                <default>false</default>
+                <label>Gala Dinner</label>
+            </value>
+            <value>
+                <fullName>Large Reception standing party</fullName>
+                <default>false</default>
+                <label>Large Reception standing party</label>
+            </value>
+            <value>
+                <fullName>After work party-shared areas</fullName>
+                <default>false</default>
+                <label>After work party-shared areas</label>
+            </value>
+            <value>
+                <fullName>Function room birthdays 30th,40th</fullName>
+                <default>false</default>
+                <label>Function room birthdays 30th,40th</label>
+            </value>
+            <value>
+                <fullName>Function room older age profile 50th,60th 70th, 80th</fullName>
+                <default>false</default>
+                <label>Function room older age profile 50th,60th 70th, 80th</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Company overnight stays/Corporate away days</fullName>
+                <default>false</default>
+                <label>Company overnight stays/Corporate away days</label>
+            </value>
+            <value>
+                <fullName>Wedding</fullName>
+                <default>false</default>
+                <label>Wedding</label>
+            </value>
+            <value>
+                <fullName>Private Dining /Restaurant</fullName>
+                <default>false</default>
+                <label>Private Dining /Restaurant</label>
+            </value>
+            <value>
+                <fullName>Hens and stags</fullName>
+                <default>false</default>
+                <label>Hens and stags</label>
+            </value>
+            <value>
+                <fullName>Engagement</fullName>
+                <default>false</default>
+                <label>Engagement</label>
+            </value>
+            <value>
+                <fullName>Venue with stage</fullName>
+                <default>false</default>
+                <label>Venue with stage</label>
+            </value>
+            <value>
+                <fullName>Quiz night</fullName>
+                <default>false</default>
+                <label>Quiz night</label>
+            </value>
+            <value>
+                <fullName>Halloween</fullName>
+                <default>false</default>
+                <label>Halloween</label>
+            </value>
+            <value>
+                <fullName>PR Event</fullName>
+                <default>false</default>
+                <label>PR Event</label>
+            </value>
+            <value>
+                <fullName>Awards Ceremony/Company Anniversary</fullName>
+                <default>false</default>
+                <label>Awards Ceremony/Company Anniversary</label>
+            </value>
+            <value>
+                <fullName>Hotel with Accommodation</fullName>
+                <default>false</default>
+                <label>Hotel with Accommodation</label>
+            </value>
+            <value>
+                <fullName>Networking event</fullName>
+                <default>false</default>
+                <label>Networking event</label>
+            </value>
+            <value>
+                <fullName>Charity Event</fullName>
+                <default>false</default>
+                <label>Charity Event</label>
+            </value>
+            <value>
+                <fullName>Company Quarterly Event</fullName>
+                <default>false</default>
+                <label>Company Quarterly Event</label>
+            </value>
+            <value>
+                <fullName>Sports and Social</fullName>
+                <default>false</default>
+                <label>Sports and Social</label>
+            </value>
+            <value>
+                <fullName>Unique Venue</fullName>
+                <default>false</default>
+                <label>Unique Venue</label>
+            </value>
+            <value>
+                <fullName>21st Birthday</fullName>
+                <default>false</default>
+                <label>21st Birthday</label>
+            </value>
+            <value>
+                <fullName>Other - Tell us in description</fullName>
+                <default>false</default>
+                <label>Other - Tell us in description</label>
+            </value>
+            <value>
+                <fullName>Small Conference</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Small Conference</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

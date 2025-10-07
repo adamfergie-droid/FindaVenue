@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area__c</fullName>
+    <label>Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>City centre</fullName>
+                <default>false</default>
+                <label>City centre</label>
+            </value>
+            <value>
+                <fullName>City centre Leeson street</fullName>
+                <default>false</default>
+                <label>City centre Leeson street</label>
+            </value>
+            <value>
+                <fullName>City centre off Grafton street</fullName>
+                <default>false</default>
+                <label>City centre off Grafton street</label>
+            </value>
+            <value>
+                <fullName>City centre Harcourt street</fullName>
+                <default>false</default>
+                <label>City centre Harcourt street</label>
+            </value>
+            <value>
+                <fullName>City centre Camden street</fullName>
+                <default>false</default>
+                <label>City centre Camden street</label>
+            </value>
+            <value>
+                <fullName>City centre IFSC</fullName>
+                <default>false</default>
+                <label>City centre IFSC</label>
+            </value>
+            <value>
+                <fullName>City centre Temple Bar</fullName>
+                <default>false</default>
+                <label>City centre Temple Bar</label>
+            </value>
+            <value>
+                <fullName>City centre off O&apos;Connell street</fullName>
+                <default>false</default>
+                <label>City centre off O&apos;Connell street</label>
+            </value>
+            <value>
+                <fullName>City centre D&apos;olier street</fullName>
+                <default>false</default>
+                <label>City centre D&apos;olier street</label>
+            </value>
+            <value>
+                <fullName>City centre Georges street</fullName>
+                <default>false</default>
+                <label>City centre Georges street</label>
+            </value>
+            <value>
+                <fullName>City centre Dame street</fullName>
+                <default>false</default>
+                <label>City centre Dame street</label>
+            </value>
+            <value>
+                <fullName>City centre Merrion row</fullName>
+                <default>false</default>
+                <label>City centre Merrion row</label>
+            </value>
+            <value>
+                <fullName>City centre Dawson street</fullName>
+                <default>false</default>
+                <label>City centre Dawson street</label>
+            </value>
+            <value>
+                <fullName>Dublin 3</fullName>
+                <default>false</default>
+                <label>Dublin 3</label>
+            </value>
+            <value>
+                <fullName>Dublin 5</fullName>
+                <default>false</default>
+                <label>Dublin 5</label>
+            </value>
+            <value>
+                <fullName>Dublin 7</fullName>
+                <default>false</default>
+                <label>Dublin 7</label>
+            </value>
+            <value>
+                <fullName>Dublin 9</fullName>
+                <default>false</default>
+                <label>Dublin 9</label>
+            </value>
+            <value>
+                <fullName>Dublin 11</fullName>
+                <default>false</default>
+                <label>Dublin 11</label>
+            </value>
+            <value>
+                <fullName>Dublin 13</fullName>
+                <default>false</default>
+                <label>Dublin 13</label>
+            </value>
+            <value>
+                <fullName>Dublin 15</fullName>
+                <default>false</default>
+                <label>Dublin 15</label>
+            </value>
+            <value>
+                <fullName>Dublin 4</fullName>
+                <default>false</default>
+                <label>Dublin 4</label>
+            </value>
+            <value>
+                <fullName>Dublin 6</fullName>
+                <default>false</default>
+                <label>Dublin 6</label>
+            </value>
+            <value>
+                <fullName>Dublin 8</fullName>
+                <default>false</default>
+                <label>Dublin 8</label>
+            </value>
+            <value>
+                <fullName>Dublin 12</fullName>
+                <default>false</default>
+                <label>Dublin 12</label>
+            </value>
+            <value>
+                <fullName>Dublin 14</fullName>
+                <default>false</default>
+                <label>Dublin 14</label>
+            </value>
+            <value>
+                <fullName>Dublin 16</fullName>
+                <default>false</default>
+                <label>Dublin 16</label>
+            </value>
+            <value>
+                <fullName>Dublin 18</fullName>
+                <default>false</default>
+                <label>Dublin 18</label>
+            </value>
+            <value>
+                <fullName>Dublin South county</fullName>
+                <default>false</default>
+                <label>Dublin South county</label>
+            </value>
+            <value>
+                <fullName>Dublin North county</fullName>
+                <default>false</default>
+                <label>Dublin North county</label>
+            </value>
+            <value>
+                <fullName>Outside Dublin-Leinster</fullName>
+                <default>false</default>
+                <label>Outside Dublin-Leinster</label>
+            </value>
+            <value>
+                <fullName>Outside Dublin-Munster</fullName>
+                <default>false</default>
+                <label>Outside Dublin-Munster</label>
+            </value>
+            <value>
+                <fullName>Outside Dublin-Connaught</fullName>
+                <default>false</default>
+                <label>Outside Dublin-Connaught</label>
+            </value>
+            <value>
+                <fullName>Outside Dublin-Ulster</fullName>
+                <default>false</default>
+                <label>Outside Dublin-Ulster</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

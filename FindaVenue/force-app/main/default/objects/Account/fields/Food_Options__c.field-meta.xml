@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Food_Options__c</fullName>
+    <label>Food Options</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No food</fullName>
+                <default>false</default>
+                <label>No food</label>
+            </value>
+            <value>
+                <fullName>Tea/Coffee/Light refreshments (Conference)</fullName>
+                <default>false</default>
+                <label>Tea/Coffee/Light refreshments (Conference)</label>
+            </value>
+            <value>
+                <fullName>Breakfast</fullName>
+                <default>false</default>
+                <label>Breakfast</label>
+            </value>
+            <value>
+                <fullName>Bowled Food</fullName>
+                <default>false</default>
+                <label>Bowled Food</label>
+            </value>
+            <value>
+                <fullName>Lunch - Sandwiches</fullName>
+                <default>false</default>
+                <label>Lunch - Sandwiches</label>
+            </value>
+            <value>
+                <fullName>Lunch - Cold Buffet</fullName>
+                <default>false</default>
+                <label>Lunch - Cold Buffet</label>
+            </value>
+            <value>
+                <fullName>Lunch - Hot Buffet</fullName>
+                <default>false</default>
+                <label>Lunch - Hot Buffet</label>
+            </value>
+            <value>
+                <fullName>Lunch - 2 Course Sit Down Meal</fullName>
+                <default>false</default>
+                <label>Lunch - 2 Course Sit Down Meal</label>
+            </value>
+            <value>
+                <fullName>Finger food</fullName>
+                <default>false</default>
+                <label>Finger food</label>
+            </value>
+            <value>
+                <fullName>BBQ</fullName>
+                <default>false</default>
+                <label>BBQ</label>
+            </value>
+            <value>
+                <fullName>Dinner Buffet</fullName>
+                <default>false</default>
+                <label>Dinner Buffet</label>
+            </value>
+            <value>
+                <fullName>2 Course Dinner</fullName>
+                <default>false</default>
+                <label>2 Course Dinner</label>
+            </value>
+            <value>
+                <fullName>3 Course Dinner</fullName>
+                <default>false</default>
+                <label>3 Course Dinner</label>
+            </value>
+            <value>
+                <fullName>5 Course Dinner</fullName>
+                <default>false</default>
+                <label>5 Course Dinner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

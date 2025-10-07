@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Status__c</fullName>
+    <label>Event Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Booked</fullName>
+                <default>false</default>
+                <label>Booked</label>
+            </value>
+            <value>
+                <fullName>Booked (feedback)</fullName>
+                <default>false</default>
+                <label>Booked (feedback)</label>
+            </value>
+            <value>
+                <fullName>Booked (reminded)</fullName>
+                <default>false</default>
+                <label>Booked (reminded)</label>
+            </value>
+            <value>
+                <fullName>Booked feedback</fullName>
+                <default>false</default>
+                <label>Booked feedback</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>cancelled</fullName>
+                <default>false</default>
+                <label>cancelled</label>
+            </value>
+            <value>
+                <fullName>1 year after enquire</fullName>
+                <default>false</default>
+                <label>1 year after enquire</label>
+            </value>
+            <value>
+                <fullName>Bus development lost</fullName>
+                <default>false</default>
+                <label>Bus development lost</label>
+            </value>
+            <value>
+                <fullName>Check availability</fullName>
+                <default>false</default>
+                <label>Check availability</label>
+            </value>
+            <value>
+                <fullName>No number emailed asking for no</fullName>
+                <default>false</default>
+                <label>No number emailed asking for no</label>
+            </value>
+            <value>
+                <fullName>Followed up email sent</fullName>
+                <default>false</default>
+                <label>Followed up email sent</label>
+            </value>
+            <value>
+                <fullName>meeting at offices</fullName>
+                <default>false</default>
+                <label>meeting at offices</label>
+            </value>
+            <value>
+                <fullName>set up meeting at the office</fullName>
+                <default>false</default>
+                <label>set up meeting at the office</label>
+            </value>
+            <value>
+                <fullName>winner</fullName>
+                <default>false</default>
+                <label>winner</label>
+            </value>
+            <value>
+                <fullName>Followed up(from Bus development lost)</fullName>
+                <default>false</default>
+                <label>Followed up(from Bus development lost)</label>
+            </value>
+            <value>
+                <fullName>Init sent</fullName>
+                <default>false</default>
+                <label>Init sent</label>
+            </value>
+            <value>
+                <fullName>agreed to zoom call</fullName>
+                <default>false</default>
+                <label>agreed to zoom call</label>
+            </value>
+            <value>
+                <fullName>Zoom call being arranged</fullName>
+                <default>false</default>
+                <label>Zoom call being arranged</label>
+            </value>
+            <value>
+                <fullName>New</fullName>
+                <default>false</default>
+                <label>New</label>
+            </value>
+            <value>
+                <fullName>No good</fullName>
+                <default>false</default>
+                <label>No good</label>
+            </value>
+            <value>
+                <fullName>Send booking (FAV deposit)</fullName>
+                <default>false</default>
+                <label>Send booking (FAV deposit)</label>
+            </value>
+            <value>
+                <fullName>Send booking (Venue deposit)</fullName>
+                <default>false</default>
+                <label>Send booking (Venue deposit)</label>
+            </value>
+            <value>
+                <fullName>Send Confimation</fullName>
+                <default>false</default>
+                <label>Send Confimation</label>
+            </value>
+            <value>
+                <fullName>Send proposals</fullName>
+                <default>false</default>
+                <label>Send proposals</label>
+            </value>
+            <value>
+                <fullName>Set up client to view</fullName>
+                <default>false</default>
+                <label>Set up client to view</label>
+            </value>
+            <value>
+                <fullName>Situation Changed</fullName>
+                <default>false</default>
+                <label>Situation Changed</label>
+            </value>
+            <value>
+                <fullName>zoom santa family enquiry</fullName>
+                <default>false</default>
+                <label>zoom santa family enquiry</label>
+            </value>
+            <value>
+                <fullName>Under control</fullName>
+                <default>false</default>
+                <label>Under control</label>
+            </value>
+            <value>
+                <fullName>Viewing</fullName>
+                <default>false</default>
+                <label>Viewing</label>
+            </value>
+            <value>
+                <fullName>Bookng but getting an event date</fullName>
+                <default>false</default>
+                <label>Bookng but getting an event date</label>
+            </value>
+            <value>
+                <fullName>agreed to phone call</fullName>
+                <default>false</default>
+                <label>agreed to phone call</label>
+            </value>
+            <value>
+                <fullName>Booked zoom</fullName>
+                <default>false</default>
+                <label>Booked zoom</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
